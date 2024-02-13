@@ -1351,7 +1351,7 @@ padding: 10px;
         font-size: 1rem;
         padding: 25px 66px;
         margin: 0px 10px;
-        font-weight: 100;
+        font-weight: 600;
     }
     .discount{
         font-size: 20px;
@@ -1515,7 +1515,7 @@ padding: 10px;
     }
     .smbox div {
             height: auto;
-            width: 100%;
+            width: 76%;
             padding: 10px 9px;
             margin: 4px;
          }
