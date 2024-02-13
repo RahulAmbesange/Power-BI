@@ -61,6 +61,7 @@ iframe{
     padding: 20px 10px;
    border: 3px solid #ff2200;;
    border-radius: 7px 7px 7px 7px;
+  
 }
 .firstbutton{
     background-color: #ff2200;;
@@ -683,6 +684,7 @@ padding: 10px;
         height: auto;
         padding: 5px;
         margin: 0px 11px;
+        font-weight: 100;
     }
     .info{
         flex-direction: column;
@@ -1037,6 +1039,7 @@ padding: 10px;
         height: auto;
         padding: 5px;
         margin: 0px 11px;
+        font-weight: 100;
     }
     .firstbutton span{
      
@@ -1345,9 +1348,10 @@ padding: 10px;
         font-size: 1rem;
     }
     .btn a{
-        font-size: 1.30rem;
-        padding: 10px;
+        font-size: 1rem;
+        padding: 25px 66px;
         margin: 0px 10px;
+        font-weight: 100;
     }
     .discount{
         font-size: 20px;
@@ -1359,7 +1363,7 @@ padding: 10px;
         font-size: 18px;
     }
     .offervalid {
-        font-size: 19px;
+        font-size: 12px;
     }
     .info{
         flex-direction: column;
@@ -1387,12 +1391,12 @@ padding: 10px;
     }
     .container-2 h1 {
         text-align: center;
-    font-size: 24px;
-    font-family: Arial;
-    padding: 20px; 
+        font-size: 27px;
+        font-family: Arial;
+        padding: 16px
     }
     .manymore h1 {
-        font-size:30px ;
+        font-size:28px ;
     }
     .dashboards {
        flex-direction: column;
@@ -1422,13 +1426,17 @@ padding: 10px;
     }
     .label{
         margin: auto;
-     margin-top: -10px;
+     margin-top: -25px;
+    }
+    .heading2 h2{
+        font-size: 1.1rem;
+        padding: 12px 15px;
     }
     .container-7 img {
         width: 100%;
         margin: auto;
         padding: 0px;
-        height: auto;
+        height: 228px;
         border-radius: 10px;
     }
     .yourmen {
@@ -1438,6 +1446,7 @@ padding: 10px;
         margin: auto;
         width: 80%;
         height: auto;
+        border-radius: 35px;
         padding: 1rem 1rem !important;
         
     }
@@ -1451,6 +1460,7 @@ padding: 10px;
     .trustpilotimg img {
         width: 75%;
         height: auto;
+        padding: 12px 12px;
     }
     .imgandtxts {
         width: 100%;
@@ -1460,16 +1470,17 @@ padding: 10px;
         flex-direction: column;
     }
     .text h4 {
-        font-size:18px ;
+        font-size:17px ;
         line-height: 20px;
     }
     .checkboxes {
         flex-direction: column;
     }
     .checktxt {
-        font-size: 16px;
-        padding: 10px 7px;
+        font-size: 17px;
+        padding: -1px 7px;
     }
+    
     .designcheckbox {
         margin: 15px 10px;
         padding: 12px 20px
@@ -1485,14 +1496,22 @@ padding: 10px;
         height: auto;
     }
     .yourmen div p {
-        font-size: 19px;
+        font-size: 14px;
+        line-height: 20px;
         margin: auto;
         padding: 10px 20px;
+        text-align: left;
     }
     .smbox {
+        flex-direction: column;
         width: 100%;
         height: auto;
-        margin: auto;
+       
+    }
+    .register h4 {
+        text-align: center;
+        font-family: Arial;
+        font-size: 15px;
     }
     .smbox div {
             height: auto;
@@ -1500,47 +1519,66 @@ padding: 10px;
             padding: 10px 9px;
             margin: 4px;
          }
-    .smbox div h4 {
-        font-size: 12px;
-    }
+         .smbox div h4 {
+            font-size: 17px;
+            padding: 00px 12px;
+           
+        }
+        .smbox div i {
+            color: #00BF72;
+            font-size: 25px;
+            font-weight: 600;
+            text-align: center;
+            margin: 5px;
+        }
     .accordion {
         padding: 0rem;
     }
     .invited p {
-        font-size:22px ;
+        font-size: 20px;
     }
     .container-4 h1 {
-        font-size: 33px;
+        font-size: 22px;
     }
     .container-4 p {
-        font-size: 24px;
-        line-height: 33px;
-        padding: 8px 10px;
+        font-size: 21px;
+    line-height: 2rem;
+    padding: 8px 10px;
+    }
+    .greenbackground {
+        background-color: #008C2F;
+        color: white;
+        padding: 1px;
     }
     .required {
-        font-size: 26px;
+        font-size: 24px;
+        font-weight: 800;
     }
+
     .text p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .blackbox p {
-        font-size: 23px;
-        line-height: 1.85rem;
+        font-size: 19px;
+        line-height: 1.9rem;
     }
     .proof {
         font-size: 29px;
         line-height: normal;
     }
     .para p {
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 25px;
         padding: 13px 10px;
     }
     .blackboxs h2 {
-        font-size: 28px;
+        font-size: 27px;
+        padding: 18px 39px;
     }
+
     .unlock {
-        font-size: 19px;
+        font-size: 20px;
+        padding-bottom: 24px;
     }
     .price {
         margin: auto;
@@ -1550,47 +1588,48 @@ padding: 10px;
         margin-top: 20px;
     }
     .certificate h1 {
-        font-size: 28px;
+        font-size: 27px;
     }
     .certificate p {
-        font-size: 24px;
+        font-size: 15px;
         padding: 13px 3px;
-        line-height: 1.80rem;
+        line-height: 1.2rem;
     }
     .paragraph p {
         color: white;
         font-family: Arial;
-        font-size: 20px;
-        line-height: 29px;
-        padding: 1px;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 23px;
     }
     .container-8 h1 {
-        font-size: 28px;
+        font-size: 25px;
+        font-weight: 600;
     }
     .container-8 .blackbox p {
-        font-size: 1.40rem;
-        line-height: 1.80rem;
+        font-size: 1.3rem;
+    line-height: 1.8rem;
         padding: 10px 19px;
     }
     .last-con h1 {
-        font-size: 37px;
+        font-size: 33px;
         padding: 11px;
     }
     .last-con p {
-        padding: 5px 12px;
-        font-size: 22px;
-        line-height: 31px;
+        padding: 5px 17px;
+        font-size: 18px;
+        line-height: 21px;
     }
     .dashboard-1 h5 {
         font-size: 1.20rem;
         width: auto;
         padding: 16px 16px;
-        margin: 0px 25px;
+       
     }
     .accordion .faq-box .ques {
             width: 89%;
             height: auto;
-            font-size: 1rem;
+            font-size: 13px;
     
     }
     .accordion .faq-box .ques::before {
