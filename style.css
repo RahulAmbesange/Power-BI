@@ -51,7 +51,7 @@ iframe{
     margin: 0px 10px;
     text-decoration: none;
     color: white;
-    background-color:#D12409;
+    background-color:#ff2200;
     font-size: 28px;
     font-family: Arial;
     font-weight: bolder;
@@ -59,11 +59,11 @@ iframe{
     height: auto;
     text-align: center;
     padding: 20px 10px;
-   border: 3px solid #D12409;
+   border: 3px solid #ff2200;;
    border-radius: 7px 7px 7px 7px;
 }
 .firstbutton{
-    background-color: #D41817;
+    background-color: #ff2200;;
 }
 .offervalid{
     font-size: 18px;
@@ -1333,20 +1333,30 @@ padding: 10px;
 @media (min-width:350px) and (max-width:500px){
    
     .head1{
-        font-size: 1.55rem;
+            font-size: 1.10rem;
+    
     }
     .head2{
-        font-size: 1.35rem;
-        line-height: 1.90rem;
+        font-size: 1.15rem;
+        line-height: 1.80rem;
         padding: 0px 10px;
     }
     .bracket {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .btn a{
         font-size: 1.30rem;
         padding: 10px;
         margin: 0px 10px;
+    }
+    .discount{
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 500;
+    }
+    .bequick {
+        font-weight: 600;
+        font-size: 18px;
     }
     .offervalid {
         font-size: 19px;
@@ -1371,13 +1381,15 @@ padding: 10px;
         margin-top: -0.1rem;
     }
     .workshop{
-        padding: 10px;
+        font-size: 18px;
+        font-weight:500;
+        padding: 0px;
     }
     .container-2 h1 {
         text-align: center;
-        font-size: 25px;
-        font-family: Arial;
-        padding: 20px;  
+    font-size: 24px;
+    font-family: Arial;
+    padding: 20px; 
     }
     .manymore h1 {
         font-size:30px ;
@@ -1454,11 +1466,12 @@ padding: 10px;
     .checkboxes {
         flex-direction: column;
     }
-    .checktxt{
-        font-size: 19px;
-        
+    .checktxt {
+        font-size: 16px;
+        padding: 10px 7px;
     }
     .designcheckbox {
+        margin: 15px 10px;
         padding: 12px 20px
     }
     .video iframe{
