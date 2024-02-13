@@ -1496,7 +1496,7 @@ padding: 10px;
         height: auto;
     }
     .yourmen div p {
-        font-size: 14px;
+        font-size: 17px;
         line-height: 20px;
         margin: auto;
         padding: 10px 20px;
@@ -1504,7 +1504,7 @@ padding: 10px;
     }
     .smbox {
         flex-direction: column;
-        width: 100%;
+        width: 91%;
         height: auto;
        
     }
