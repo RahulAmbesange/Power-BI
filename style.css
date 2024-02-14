@@ -1488,7 +1488,7 @@ padding: 10px;
     .video iframe{
         width: 15rem !important;
         height: auto;
-        padding: 3rem 0rem !important;
+        padding: 0rem 0rem !important;
         margin: 20px;
     }
     .dashboard-1 img {
