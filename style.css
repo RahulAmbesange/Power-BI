@@ -1486,10 +1486,10 @@ padding: 10px;
         padding: 12px 20px
     }
     .video iframe{
-        width:22rem !important;
+        width: 15rem !important;
         height: auto;
-        padding: 1rem 2rem !important;
-        margin: 20px ;
+        padding: 3rem 0rem !important;
+        margin: 20px;
     }
     .dashboard-1 img {
         margin: 14px 4px;
